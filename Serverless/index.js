@@ -97,11 +97,6 @@ export async function handler(event, context) {
       await saveUrlToGCS(url, process.env.BUCKET_NAME, fileName + new Date());
       console.log("URL saved successfully");
 
-     
-
-     
-     
-
     } else {
       console.log("The URL does not point to a ZIP file.");
     }
