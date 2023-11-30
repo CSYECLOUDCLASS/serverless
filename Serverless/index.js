@@ -96,7 +96,6 @@ export async function handler(event, context) {
       const fileName = url.split('/').pop(); // Extracts file name from URL
       await saveUrlToGCS(url, process.env.BUCKET_NAME, fileName + new Date());
       console.log("URL saved successfully");
-
     } else {
       console.log("The URL does not point to a ZIP file.");
     }
