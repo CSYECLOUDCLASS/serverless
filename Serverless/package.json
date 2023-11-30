@@ -1,0 +1,21 @@
+{
+  "name": "serverless_fork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@google-cloud/storage": "^7.6.0",
+    "aws-sdk": "^2.1505.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^9.3.0"
+  }
+}
